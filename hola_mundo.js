@@ -7,4 +7,12 @@ console.log('Hola mundo desde Node.js, esto se verá en la terminal de comandos'
 console.log(2*5)
 
 //Al utilizar una instrucción de JS frontend marca error en node js
-console.log(window)
+//console.log(window)
+
+//Improme en consola todo lo relacionado con el modulo gobal
+console.log(global)
+
+//Realiamos una funcion para imprimir cada segundo "hola no js"
+setInterval(function(){
+    console.log('Hola Node JS')
+}, 1000)
