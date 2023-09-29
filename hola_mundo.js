@@ -1,5 +1,4 @@
 //Esto es backend
-
 //Imprimir en pantalla
 console.log('Hola mundo desde Node.js, esto se verá en la terminal de comandos')
 
@@ -12,7 +11,7 @@ console.log(2*5)
 //Improme en consola todo lo relacionado con el modulo gobal
 console.log(global)
 
-//Realiamos una funcion para imprimir cada segundo "hola no js"
+//Realiamos una funcion para imprimir cada segundo "hola node js"
 setInterval(function(){
     console.log('Hola Node JS')
 }, 1000)
