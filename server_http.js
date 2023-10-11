@@ -1,6 +1,6 @@
 // Llamamos el modulo http
 const http = require('http');
-const hostname = '192.168.1.115'; //IP del servidor
+const hostname = '192.168.140.12'; //IP del servidor
 const port = 3000; // Buena practica del 3000 hacia arriba para no interferir 
 
 const server = http.createServer((req,res)=> {
